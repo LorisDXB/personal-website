@@ -130,6 +130,14 @@ section {
     display: block;
 }
 
+#dropdown > a:hover {
+    color:rgba(0, 153, 255, 0.712);
+}
+
+#dropdown > a:active {
+    color:rgba(0, 87, 145, 0.678);
+}
+
 #buttonhref:hover > .nav1 {
     background-color:rgba(0, 153, 255, 0.712);
 }
@@ -192,8 +200,18 @@ footer {
     text-align: center;
     font-family: "Chakra Petch";
     border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    text-decoration: none;
     font-weight: bold;
     color:rgb(255, 255, 255);
+}
+
+.learnmore:hover {
+    background-color:rgba(0, 97, 161, 0.712);
+}
+
+.learnmore:active {
+    background-color:rgba(0, 62, 104, 0.712);
 }
 
 .showcase {
