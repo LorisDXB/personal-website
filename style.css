@@ -198,8 +198,9 @@ footer {
 }
 
 .learnmore {
-    display: static;
-    position: relative;
+    display: block;
+    position: absolute;
+	width: 373px;
     text-align: center;
     font-family: "Chakra Petch";
     border: 2px solid rgb(255, 255, 255);
