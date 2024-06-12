@@ -11,7 +11,6 @@ body {
     box-sizing: border-box;
 }
 
-
 nav {
     display: flex;
     justify-content: center;
@@ -102,6 +101,7 @@ section {
     padding: 10px;
     height: 500px;
     max-width: 400px;
+    background-color: rgba(24, 49, 66, 0.712);
     border: 2px solid rgb(255, 255, 255);
     color: white;
     text-align: center;
@@ -115,7 +115,6 @@ section {
     position: absolute;
     margin-left: 0;
     left: 50%;
-    transform: translateX(25%);
     margin-top: 194px;
     width: 120px;
     height:160px;
@@ -170,8 +169,9 @@ footer {
     font-family: "Chakra Petch";
     color: rgb(255, 255, 255);
     position: relative;
-    top: 10vh;
+    margin-bottom:100px;
     text-align: center;
+    top: 15vh;
 }
 
 /* only for portfolio page */
@@ -179,19 +179,37 @@ footer {
 .category {
     display: block;
     position: relative;
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
     font-family: "Chakra Petch";
     font-weight: bold;
     color:rgb(255, 255, 255);
+}
 
+.learnmore {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: "Chakra Petch";
+    border: 2px solid rgb(255, 255, 255);
+    font-weight: bold;
+    color:rgb(255, 255, 255);
 }
 
 .showcase {
+    background-color: rgba(24, 49, 66, 0.712);
     margin-top: 50px;
-    width:500px;
+    width:400px;
     height:500px;
     border: 3px solid rgb(255, 255, 255);
+    font-family: "Chakra Petch";
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+}
+
+.showcase ul{
+    text-align: left;
 }
 
 #blamegui {
