@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosasite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/mosasour.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<style>
+    .rotate {
+        animation: rotate 2s ease-out infinite;
+    }
+</style>
+</head>
+<body>
+   <header>
+        <nav>
+            <button class="nav1">
+                <img src="assets/img/radio.png" id="radio" onclick="playMusic();">
+            </button>
+            <a href="index.html" id="buttonhref">
+                <button class="nav1">Introduction</button>
+            </a>
+            <button class="nav2">
+                Contact
+            </button>
+            <div id="dropdown">
+                <a href="https://github.com/LorisDXB">
+                    github
+                </a>
+                <img src="assets/img/gith.png" class="droplogo" id="git"><br>
+                <a href="https://www.linkedin.com/in/loris-god%C3%A9-61b69a2ab/">
+                    linkedin
+                </a>
+                <img src="assets/img/in.png" class="droplogo" id="in"><br>
+                <a href="mailto:chillingbus@gmail.com">
+                    mail
+                </a>
+                <img src="assets/img/mail-64.png" class="droplogo" id="mail"><br>
+            </div>
+            <script>
+                var debounce = false;
+                var music = new Audio("assets/snd/sound_music.ogg");
+
+                function playMusic() {
+                    if (debounce == false) {
+                        debounce = true;
+                        music.play();
+                    } else {
+                        debounce = false;
+                        music.pause();
+                    }
+                }
+            </script>
+        </nav>
+   </header> 
+
+   <main>
+        <h2 class="category">C</h2>
+        <section id="section1">
+            <div class="showcase">
+                <img src="assets/img/gui.png" id="blamegui">
+            </div>
+            <div class="showcase">
+                <img src="assets/img/dropsys.gif" id="blamegui">
+            </div>
+        </section>
+        <a href="https://github.com/LorisDXB/blame_rpg" class="category">Learn more about this project. (BLAME)</a>
+         <h2 class="category">HTML / CSS</h2>
+        <section id="section2">
+            <div>
+                <p class="category" style="font-style: italic;">This site ! :)</p>
+            </div>
+        </section>
+   </main>
+
+   <footer>
+        <hr>
+        <p>Site made by me! :)</p>
+   </footer>
+</body>
+</html>

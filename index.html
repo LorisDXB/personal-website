@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosasite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/mosasour.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<style>
+    .rotate {
+        animation: rotate 2s ease-out infinite;
+    }
+</style>
+</head>
+<body>
+   <header>
+        <nav>
+            <button class="nav1">
+                <img src="assets/img/radio.png" id="radio" onclick="playMusic();">
+            </button>
+            <a href="portfolio.html" id="buttonhref">
+                <button class="nav1">Portfolio</button>
+            </a>
+            <button class="nav2">
+                Contact
+            </button>
+            <div id="dropdown">
+                <a href="https://github.com/LorisDXB">github</a>
+                <img src="assets/img/gith.png" class="droplogo" id="git"><br>
+                <a href="https://www.linkedin.com/in/loris-god%C3%A9-61b69a2ab/">linkedin</a>
+                <img src="assets/img/in.png" class="droplogo" id="in"><br>
+                <a href="mailto:chillingbus@gmail.com">mail</a>
+                <img src="assets/img/mail-64.png" class="droplogo" id="mail"><br>
+            </div>
+            <script>
+                var debounce = false;
+                var music = new Audio("assets/snd/sound_music.ogg");
+
+                function playMusic() {
+                    var element = document.getElementById("mosa");
+
+                    if (debounce == false) {
+                        debounce = true;
+                        element.classList.add("rotate");
+                        music.play();
+                    } else {
+                        debounce = false;
+                        element.classList.remove("rotate");
+                        music.pause();
+                    }
+                }
+            </script>
+        </nav>
+   </header> 
+
+   <main>
+        <section>
+            <img src="assets/img/mosasour.png" id="mosa" alt="Mosasour Image">
+            <div id="introskills">
+                <h2>Introduction</h2>
+                <p>
+                   Hello!<br>My name is Loris, I am currently a second year student studying at Epitech in the wonderful city of Toulouse in France !  
+                </p>
+                <hr style="width:60px">
+                <h2>Skills</h2>
+                <ul id="skilllist">
+                    <li>C</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Python</li>
+                    <li>Lua / LuaU</li>
+                    <li>Rust</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        </section>
+   </main>
+
+   <footer>
+        <hr>
+        <p>Site made by me! :)</p>
+   </footer>
+</body>
+</html>
