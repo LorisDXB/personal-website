@@ -202,7 +202,7 @@ footer {
     position: relative;
     text-align: center;
     font-family: "Chakra Petch";
-	bottom: 5%;
+	bottom: 3vh;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 20px;
     text-decoration: none;
