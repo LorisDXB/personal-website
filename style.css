@@ -198,16 +198,19 @@ footer {
 }
 
 .learnmore {
-    display: block;
     position: relative;
+    display: block;
     text-align: center;
     font-family: "Chakra Petch";
     border: 2px solid rgb(255, 255, 255);
-	bottom: 30px;
     border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
     color:rgb(255, 255, 255);
+}
+
+#s2 a {
+    bottom: 50px;
 }
 
 .learnmore:hover {
@@ -219,6 +222,7 @@ footer {
 }
 
 .showcase {
+    display: inline-block;
     border-radius: 20px;
     background-color: rgba(24, 49, 66, 0.712);
     padding: 10px;
