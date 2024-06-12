@@ -41,6 +41,7 @@ nav > button:active{
     font-weight: bold;
     font-family: "Chakra Petch";
     cursor: pointer;
+    background-color: rgba(24, 49, 66, 0.712);
 }
 
 .nav1 #radio {
@@ -53,13 +54,13 @@ nav > button:active{
     width: 100px;
     border: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
-    background-color: transparent;
     border-radius: 20px;
     margin-right: 20px;
     box-shadow: 4px 4px 6px rgb(0, 0, 0);
     font-weight: bold;
     font-family: "Chakra Petch";
     cursor: pointer;
+    background-color: rgba(24, 49, 66, 0.712);
 }
 
 #skilllist {
@@ -103,6 +104,7 @@ section {
     max-width: 400px;
     background-color: rgba(24, 49, 66, 0.712);
     border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -111,6 +113,7 @@ section {
 }
 
 #dropdown {
+    padding: 5px;
     display: none;
     position: absolute;
     margin-left: 0;
@@ -215,7 +218,9 @@ footer {
 }
 
 .showcase {
+    border-radius: 20px;
     background-color: rgba(24, 49, 66, 0.712);
+    padding: 10px;
     margin-top: 50px;
     width:400px;
     height:500px;
@@ -228,9 +233,4 @@ footer {
 
 .showcase ul{
     text-align: left;
-}
-
-#blamegui {
-    width:495px;
-    height:495px;
 }
