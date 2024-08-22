@@ -1,0 +1,37 @@
+[
+    {
+        "name": "in June",
+        "lang": ["Lua"],
+        "preview": "assets/preview/injune.png",
+        "info": "In june is a simple boxing game on roblox, the game goes over all aspects of Lua and LuaU (Roblox's variant of Lua), the game has; skins, combat system, matchmaking, a global leaderboard and more",
+        "link": "www.roblox.com/inJune"
+    },
+    {
+        "name": "Blame",
+        "lang": ["C"],
+        "preview": "assets/preview/blame.png",
+        "info": "Blame is a project that was done in 2 weeks with a group of 4 people using C's CSFML Library, the project consisted in making a fully-featured RPG game.",
+        "link": "https://github.com/LorisDXB/blame_rpg"
+    },
+    {
+        "name": "PortalPaint",
+        "lang": ["C"],
+        "preview": "assets/preview/portalpaint.png",
+        "info": "PortalPaint is a project that was done in 2 weeks with a group of 2 people using C's CSFML Library, the project consisted in making a drawing software.",
+        "link": "https://github.com/LorisDXB/portalpaint"
+    },
+    {
+        "name": "GoyaveSH",
+        "lang": ["C"],
+        "preview": "assets/preview/GoyaveSH",
+        "info": "GoyaveSH is a project that was done in 4 weeks with a group of 5 people using the C programming language, the project consisted in making a fully-featured terminal shell.",
+        "link": "https://github.com/LorisDXB/goyavesh"
+    },
+    {
+        "name": "mosasite.xyz",
+        "lang": ["JS", "Html", "Css"],
+        "preview": "assets/preview/mosasite.png",
+        "info": "mosasite.xyz is the site you're currently on :)",
+        "link": "https://mosasite.xyz"
+    }
+]
