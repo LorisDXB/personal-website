@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Blame",
+        "lang": ["C"],
+        "preview": "assets/preview/blame.png",
+        "info": "'Blame' is a project that was done in 2 weeks with a group of 4 people using C's CSFML Library, the project consisted in making a fully-featured RPG game.",
+        "link": "https://github.com/LorisDXB/blame_rpg"
+    },
+    {
+        "name": "PortalPaint",
+        "lang": ["C"],
+        "preview": "assets/preview/portalpaint.png",
+        "info": "'PortalPaint' is a project that was done in 2 weeks with a group of 2 people using C's CSFML Library, the project consisted in making a drawing software.",
+        "link": "https://github.com/LorisDXB/portalpaint"
+    },
+    {
+        "name": "GoyaveSH",
+        "lang": ["C"],
+        "preview": "assets/preview/GoyaveSH",
+        "info": "'GoyaveSH' is a project that was done in 4 weeks with a group of 5 people using the C programming language, the project consisted in making a fully-featured terminal shell.",
+        "link": "https://github.com/LorisDXB/goyavesh"
+    },
+    {
+        "name": "In June",
+        "lang": ["Lua"],
+        "preview": "assets/preview/injune.png",
+        "info": "'In june' is a boxing game on roblox, the game goes over all aspects of Lua and LuaU (Roblox's variant of Lua), the game has; modular skins, a combat system, matchmaking, a global leaderboard and much more",
+        "link": "https://www.roblox.com/share?code=0b9c38eafd010b4b955d8759082c2a1e&type=ExperienceDetails&stamp=1724850931301"
+    },
+    {
+        "name": "Have a block",
+        "lang": ["Lua"],
+        "preview": "assets/preview/haveablock.png",
+        "info": "'Have a block' is a pet simulator type of roblox game that was done in order to experiment making inventories, handling randomness (RNG), and making shop systems.",
+        "link": "https://www.roblox.com/share?code=fa142de3c78ed246b5fb7dcd9bb3aa2a&type=ExperienceDetails&stamp=1724850977549"
+    },
+    {
+        "name": "Find the code",
+        "lang": ["Lua"],
+        "preview": "assets/preview/findthecode.png",
+        "info": "'find the code' is a self explanatory name, the goal in this game is to find the code and get to the next room, this is one of my older projects: it has a simple travel menu, door animations, and keypads.",
+        "link": "https://www.roblox.com/share?code=fa142de3c78ed246b5fb7dcd9bb3aa2a&type=ExperienceDetails&stamp=1724850977549"
+    },
+    {
+        "name": "Mosasite",
+        "lang": ["JS", "Html", "Css"],
+        "preview": "assets/preview/mosasite.png",
+        "info": "'Mosasite' is the site you're currently on :)",
+        "link": "https://mosasite.xyz"
+    }
+]
