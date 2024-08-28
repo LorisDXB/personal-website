@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosasite</title>
+    <link rel="stylesheet" href="aboutMe.css">
+    <link rel="stylesheet" href="leetCodeStats.css">
+    <link rel="stylesheet" href="projectTable.css">
+    <link rel="stylesheet" href="projectCard.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="assets/img/mosa.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src ="filter.js"></script>
+    <script src ="projectCard.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="siteContainer">
+        <div id="aboutMe">
+            <div id="handle">
+                <img id="logo" src="assets/img/mosa.png">
+                <div id="info">
+                    <div id="name">
+                        <span>moosasaur</span>
+                    </div>
+                    <div id="status">
+                        <span>"Looking forward to what we can accomplish together."</span>
+                    </div>
+                </div>
+            </div>
+            <hr class="aboutMeHr">
+            <div id="bio">
+                <span>Hello! My name is Loris, and I am currently a second-year Computer Science major student studying in France. </span>
+            </div>
+            <hr class="aboutMeHr">
+            <div id="skills">
+                <ul id="backEnd">
+                    <li>C</li>
+                    <li>Lua</li>
+                    <li>Python</li>
+                </ul>
+                <ul id="frontEnd">
+                    <li>Javascript</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        </div>
+        <div id="leetCodeStats">
+            <a href="https://leetcode.com/u/moosasaur/">
+                <img id="logo" src="assets/img/leetcode.png">
+            </a>
+            <div id="statistics">
+               <span id="hard" class="count">nil</span> 
+               <span id="medium" class="count">nil</span> 
+               <span id="easy" class="count">nil</span> 
+               <span class="count">=</span> 
+               <span id="all" class="count">nil</span> 
+            </div>
+        </div>
+        <div id="projectTable">
+            <div id="header">
+                <div id="filterContainer">
+                </div>
+            </div>
+            <div id="main">
+
+            </div>
+        </div>
+    </div>
+    <div id="projectContainer">
+        <div id="projectCard">
+            <div id="projectHeader">
+                <span id="projectName">Project: Loading...</span>
+            </div>
+            <div id="projectMain">
+                <div id="projectPreview">
+                    <img src="assets/img/bgopt.jpg" id="previewImage">
+                </div>
+                <div id="projectSkills">
+                    <div id="skillIconHolder">
+                        d
+                    </div>
+                    <!-- <img class="skillIcon" src="assets/img/lua.png" > -->
+                </div>
+                <div id="projectInfo">
+                    <span id="projectInfoText">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni exercitationem pariatur cumque dicta iusto, sequi saepe molestias quasi quas ad optio, animi minima excepturi illum quos mollitia beatae magnam aperiam.
+                    </span>
+                </div>
+                <a id="projectLink">
+                    Send me there !
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
