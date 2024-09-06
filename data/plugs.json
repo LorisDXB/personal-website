@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Github",
+        "logo": "assets/img/Github.png",
+        "link": "https://github.com/LorisDXB"
+    },
+    {
+        "name": "Leetcode",
+        "logo": "assets/img/Leetcode.png",
+        "link": "https://leetcode.com/u/moosasaur/"
+    }
+]
