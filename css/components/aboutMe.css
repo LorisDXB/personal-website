@@ -1,0 +1,44 @@
+#aboutMe {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(80, 80, 80);
+    color: rgb(172, 172, 172);
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px black;
+    font-size: clamp(0.6em, 2vw, 1.4em);
+    text-align: center;
+    z-index: 1;
+}
+
+#aboutMe > hr {
+    width: 80%;
+}
+
+#aboutMe > #aboutMeWho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#aboutMe > #aboutMeWhere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#aboutMe > #aboutMeWhy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
