@@ -1,0 +1,11 @@
+#secretButton {
+    width: 5%;
+    height: 50%;
+    background-color: rgb(80, 80, 80);
+    border-top: 2px solid rgb(172, 172, 172, 0.4);
+    border-right: 2px solid rgb(172, 172, 172, 0.4);
+    border-left: none;
+    border-bottom: none;
+    color: white;
+    border-radius: 0px 20px 0px 20px;
+}

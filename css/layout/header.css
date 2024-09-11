@@ -1,0 +1,28 @@
+#plugBar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    background-color: rgb(80, 80, 80, 0.7);
+    border: 2px solid rgb(172, 172, 172, 0.4);
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;
+    transition: 0.2s linear;
+}
+
+#plugBar:hover {
+    width: 32%;
+    height: 82%;
+    border: 2px solid white;
+    border-top: none;
+}
+
+.plugLogo {
+    width: clamp(5px, 38px, 60px);
+    height: clamp(5px, 38px, 60px);
+}
+
+.plugLogo:hover {
+    cursor: pointer;
+}

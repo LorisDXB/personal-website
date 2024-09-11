@@ -1,0 +1,65 @@
+* {
+    font-family: "Chakra Petch";
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 96vh;
+    min-height: 600px;
+    background-color: rgba(40, 40, 40);
+    background-image: url("../../assets/img/marianne-holveck-test-ezgif.com-resize.gif");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: fadeIn 1.5s linear;
+    /* opacity: 0; */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(60, 60, 60, 0);
+    border-right: 2px solid rgb(172, 172, 172, 0.4);
+    border-left: 2px solid rgb(172, 172, 172, 0.4);
+    border-top: 2px solid rgb(172, 172, 172, 0.4);
+    border-radius: 20px 20px 0px 0px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(60, 60, 60, 0);
+    border-right: 2px solid rgb(172, 172, 172, 0.4);
+    border-left: 2px solid rgb(172, 172, 172, 0.4);
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(60, 60, 60, 0);
+    border-right: 2px solid rgba(172, 172, 172, 0.4);
+    border-left: 2px solid rgb(172, 172, 172, 0.4);
+    border-bottom: 2px solid rgb(172, 172, 172, 0.4);
+    border-radius: 0px 0px 20px 20px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
